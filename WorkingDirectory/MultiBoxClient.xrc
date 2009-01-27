@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxFrame" name="MainFrame">
+		<style>wxFRAME_NO_TASKBAR|wxRESIZE_BORDER|wxSTAY_ON_TOP|wxDOUBLE_BORDER|wxRAISED_BORDER|wxTAB_TRAVERSAL</style>
+		<pos>5,5</pos>
+		<size>500,300</size>
+		<title>MultiBox Client</title>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<option>1</option>
+				<flag>wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxPanel" name="m_panel_log">
+					<style>wxTAB_TRAVERSAL</style>
+					<object class="wxBoxSizer">
+						<orient>wxVERTICAL</orient>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxEXPAND</flag>
+							<border>5</border>
+							<object class="wxTextCtrl" name="m_textCtrl_log">
+								<style>wxTE_MULTILINE|wxTE_READONLY</style>
+								<value></value>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxEXPAND | wxALL</flag>
+				<border>0</border>
+				<object class="wxPanel" name="m_panel_options">
+					<style>wxTAB_TRAVERSAL</style>
+					<object class="wxGridSizer">
+						<rows>2</rows>
+						<cols>2</cols>
+						<vgap>5</vgap>
+						<hgap>5</hgap>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxEXPAND|wxLEFT</flag>
+							<border>5</border>
+							<object class="wxStaticBoxSizer">
+								<orient>wxHORIZONTAL</orient>
+								<label>Server Name</label>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag></flag>
+									<border>5</border>
+									<object class="wxTextCtrl" name="m_textCtrl_serverName">
+										<style>wxTE_PROCESS_ENTER</style>
+										<value></value>
+									</object>
+								</object>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxEXPAND|wxLEFT|wxRIGHT</flag>
+							<border>5</border>
+							<object class="wxStaticBoxSizer">
+								<orient>wxHORIZONTAL</orient>
+								<label>Mouse Speed</label>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag></flag>
+									<border>5</border>
+									<object class="wxSlider" name="m_slider_mouseSpeed">
+										<style>wxSL_HORIZONTAL</style>
+										<value>10</value>
+										<min>1</min>
+										<max>20</max>
+									</object>
+								</object>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxBOTTOM|wxEXPAND|wxLEFT</flag>
+							<border>5</border>
+							<object class="wxStaticBoxSizer">
+								<orient>wxHORIZONTAL</orient>
+								<label>Port Range</label>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag></flag>
+									<border>5</border>
+									<object class="wxSpinCtrl" name="m_spinCtrl_portRange">
+										<style>wxSP_ARROW_KEYS</style>
+										<value>9435</value>
+										<min>1</min>
+										<max>65535</max>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxTOP</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="m_staticText_portRange">
+										<label>- XXXX</label>
+									</object>
+								</object>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxBOTTOM|wxEXPAND|wxLEFT|wxRIGHT</flag>
+							<border>5</border>
+							<object class="wxStaticBoxSizer">
+								<orient>wxVERTICAL</orient>
+								<label>Reconnect Timeout</label>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxSpinCtrl" name="m_spinCtrl_reconnectTimeout">
+										<style>wxSP_ARROW_KEYS</style>
+										<value>30</value>
+										<min>1</min>
+										<max>3600</max>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="m_statusbar">
+			<style>wxST_SIZEGRIP</style>
+			<fields>1</fields>
+		</object>
+	</object>
+</resource>
