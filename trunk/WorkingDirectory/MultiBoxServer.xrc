@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxFrame" name="MainFrame">
+		<style>wxFRAME_NO_TASKBAR|wxSTAY_ON_TOP|wxDOUBLE_BORDER|wxRAISED_BORDER|wxTAB_TRAVERSAL</style>
+		<pos>5,5</pos>
+		<size>668,420</size>
+		<title>MultiBox Server</title>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<option>1</option>
+				<flag>wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxPanel" name="m_panel_top">
+					<style>wxTAB_TRAVERSAL</style>
+					<object class="wxBoxSizer">
+						<orient>wxVERTICAL</orient>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxEXPAND|wxLEFT|wxRIGHT|wxTOP</flag>
+							<border>5</border>
+							<object class="wxTextCtrl" name="m_textCtrl_log">
+								<style>wxTE_MULTILINE|wxTE_READONLY</style>
+								<value></value>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALL|wxEXPAND</flag>
+							<border>5</border>
+							<object class="wxFlexGridSizer">
+								<rows>4</rows>
+								<cols>4</cols>
+								<vgap>5</vgap>
+								<hgap>5</hgap>
+								<growablecols>0,1,2,3</growablecols>
+								<growablerows>0,1,2,3</growablerows>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxChoice" name="m_choice0">
+										<content />
+										<selection>0</selection>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxChoice" name="m_choice1">
+										<content />
+										<selection>0</selection>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxChoice" name="m_choice2">
+										<content />
+										<selection>0</selection>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxChoice" name="m_choice3">
+										<content />
+										<selection>0</selection>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxChoice" name="m_choice4">
+										<content />
+										<selection>0</selection>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxChoice" name="m_choice5">
+										<content />
+										<selection>0</selection>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxChoice" name="m_choice6">
+										<content />
+										<selection>0</selection>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxChoice" name="m_choice7">
+										<content />
+										<selection>0</selection>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxChoice" name="m_choice8">
+										<content />
+										<selection>0</selection>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxChoice" name="m_choice9">
+										<content />
+										<selection>0</selection>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxChoice" name="m_choice10">
+										<content />
+										<selection>0</selection>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxChoice" name="m_choice11">
+										<content />
+										<selection>0</selection>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxChoice" name="m_choice12">
+										<content />
+										<selection>0</selection>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxChoice" name="m_choice13">
+										<content />
+										<selection>0</selection>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxChoice" name="m_choice14">
+										<content />
+										<selection>0</selection>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxChoice" name="m_choice15">
+										<content />
+										<selection>0</selection>
+									</object>
+								</object>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxEXPAND</flag>
+							<border>5</border>
+							<object class="wxGridSizer">
+								<rows>2</rows>
+								<cols>2</cols>
+								<vgap>0</vgap>
+								<hgap>0</hgap>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxBoxSizer">
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND|wxLEFT</flag>
+											<border>5</border>
+											<object class="wxStaticBoxSizer">
+												<orient>wxHORIZONTAL</orient>
+												<label>Broadcast</label>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxEXPAND</flag>
+													<border>5</border>
+													<object class="wxBoxSizer">
+														<orient>wxHORIZONTAL</orient>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALL</flag>
+															<border>5</border>
+															<object class="wxCheckBox" name="m_checkBox_keyboardBroadcast">
+																<label>Keyboard</label>
+																<checked>0</checked>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag></flag>
+															<border>5</border>
+															<object class="wxButton" name="m_button_keyboardBinding">
+																<size>40,-1</size>
+																<label>Key</label>
+																<default>0</default>
+															</object>
+														</object>
+													</object>
+												</object>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxEXPAND</flag>
+													<border>5</border>
+													<object class="wxBoxSizer">
+														<orient>wxHORIZONTAL</orient>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALL</flag>
+															<border>5</border>
+															<object class="wxCheckBox" name="m_checkBox_mouseBroadcast">
+																<label>Mouse</label>
+																<checked>0</checked>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag></flag>
+															<border>5</border>
+															<object class="wxButton" name="m_button_mouseBinding">
+																<size>40,-1</size>
+																<label>Key</label>
+																<default>0</default>
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
+										</object>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND|wxLEFT</flag>
+											<border>5</border>
+											<object class="wxStaticBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<label>Locking</label>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxEXPAND</flag>
+													<border>5</border>
+													<object class="wxBoxSizer">
+														<orient>wxHORIZONTAL</orient>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALL</flag>
+															<border>5</border>
+															<object class="wxCheckBox" name="m_checkBox_lockToScreen">
+																<label>Screen Lock</label>
+																<checked>0</checked>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag></flag>
+															<border>5</border>
+															<object class="wxButton" name="m_button_lockToScreenBinding">
+																<size>40,-1</size>
+																<label>Key</label>
+																<default>0</default>
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
+										</object>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxEXPAND|wxLEFT|wxRIGHT</flag>
+									<border>5</border>
+									<object class="wxStaticBoxSizer">
+										<orient>wxHORIZONTAL</orient>
+										<label>On Screen Change</label>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxALL</flag>
+											<border>5</border>
+											<object class="wxCheckBox" name="m_checkBox_adjustMouse">
+												<label>Adjust Mouse</label>
+												<checked>1</checked>
+											</object>
+										</object>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxALL</flag>
+											<border>5</border>
+											<object class="wxCheckBox" name="m_checkBox_moveClipboard">
+												<label>Move Clipboard</label>
+												<checked>1</checked>
+											</object>
+										</object>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxBOTTOM|wxEXPAND|wxLEFT</flag>
+									<border>5</border>
+									<object class="wxStaticBoxSizer">
+										<orient>wxHORIZONTAL</orient>
+										<label>Port Range</label>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag></flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_spinCtrl_portRange">
+												<style>wxSP_ARROW_KEYS</style>
+												<value>9435</value>
+												<min>1</min>
+												<max>65535</max>
+											</object>
+										</object>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL</flag>
+											<border>5</border>
+											<object class="wxStaticText" name="m_staticText_portRange">
+												<label>- 9437</label>
+											</object>
+										</object>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxBOTTOM|wxEXPAND|wxLEFT|wxRIGHT</flag>
+									<border>5</border>
+									<object class="wxStaticBoxSizer">
+										<orient>wxHORIZONTAL</orient>
+										<label>Layout</label>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxRIGHT</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_spinCtrl_rows">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>40,-1</size>
+												<value>3</value>
+												<min>1</min>
+												<max>4</max>
+											</object>
+										</object>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag></flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_spinCtrl_columns">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>40,-1</size>
+												<value>3</value>
+												<min>1</min>
+												<max>4</max>
+											</object>
+										</object>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="m_statusbar">
+			<style>wxST_SIZEGRIP</style>
+			<fields>1</fields>
+		</object>
+	</object>
+</resource>
